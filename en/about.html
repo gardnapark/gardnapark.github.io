@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"/>
+
+    <title>Years of experience in construction - Gardna Park</title>
+		<script>
+	
+		;(function(){
+		  function id(v){ return document.getElementById(v); }
+		  function loadbar() {
+			var ovrl = id("overlay"),
+				prog = id("progress"),
+				stat = id("progstat"),
+				img = document.images,
+				c = 0,
+				tot = img.length;
+				if(tot == 0) return doneLoading();
+
+			
+
+			function imgLoaded(){
+			  c += 1;
+			  var perc = ((100/tot*c) << 0) +"%";
+			  prog.style.width = perc;
+			  stat.innerHTML = "Loading "+ perc;
+			  if(c===tot) return doneLoading();
+			}
+			function doneLoading(){
+			  ovrl.style.opacity = 0;
+			  setTimeout(function(){ 
+				ovrl.style.display = "none";
+			  }, 1200);
+			}
+			for(var i=0; i<tot; i++) {
+			  var tImg     = new Image();
+			  tImg.onload  = imgLoaded;
+			  tImg.onerror = imgLoaded;
+			  tImg.src     = img[i].src;
+			}    
+		  }
+		  document.addEventListener('DOMContentLoaded', loadbar, false);
+		}());
+	
+	</script>
+	<style>
+
+
+
+ 		*{margin:0;}
+		
+		html {
+			height: 100%;
+		}
+		body{ 
+		font-family: 'Lora', serif; 
+		background-image: url("Images/House_1.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		text-shadow: 2px 2px 4px #333;
+		background-color: #000;
+		background-size:cover;
+		}
+		
+
+		#overlay{
+		  position:fixed;
+		  z-index:99999;
+		  top:0;
+		  left:0;
+		  bottom:0;
+		  right:0;
+		  background:rgba(0,0,0,0.9);
+		  transition: 1s 0.4s;
+		}
+		#progress{
+		  height:1px;
+		  background:#fff;
+		  position:absolute;
+		  width:0;                /* will be increased by JS */
+		  top:50%;
+		}
+		#progstat{
+		  font-size:0.7em;
+		  letter-spacing: 3px;
+		  position:absolute;
+		  top:50%;
+		  margin-top:-40px;
+		  width:100%;
+		  text-align:center;
+		  color:#fff;
+		}
+
+		
+		.carousel{
+			position:absolute;
+			width:100%;
+			text-align:center;
+			z-index:0;
+			top:0em;
+		}
+		
+	
+		.carousel-item {
+			-webkit-backface-visibility: unset!important;
+			backface-visibility: unset!important;
+		}
+
+
+		.navbar{
+		 z-index:10; 
+		}
+ 
+
+		.overlay {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 2;
+			background-color: #080d15;
+			opacity: .8;
+		}
+		.hero {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 3;
+			color: #fff;
+			font-weight: bold;
+			text-align: center;
+			text-transform: uppercase;
+			text-shadow: 2px 2px 0 rgba(0,0,0,.75);
+			  -webkit-transform: translate3d(-50%,-50%,0);
+				 -moz-transform: translate3d(-50%,-50%,0);
+				  -ms-transform: translate3d(-50%,-50%,0);
+				   -o-transform: translate3d(-50%,-50%,0);
+					  transform: translate3d(-50%,-50%,0);
+		}
+		.hero h1 {
+			font-size: 6em;    
+			font-weight: bold;
+			margin: 0;
+			padding: 0;
+			text-shadow: 2px 2px 0 rgba(0,0,0,.75);
+
+		}
+		
+		.Onas{
+			min-height: 200px;
+			background-color: rgba(0, 0, 0, 0.3);
+			border-radius: 1rem; padding: 15px;
+		}
+		
+		.Onas_small{
+			background-color: rgba(0, 0, 0, 0.3);
+			border-radius: 1rem; padding: 15px;
+		}
+		
+		@media only screen and (max-width : 1000px) {
+			.dropdown-menu {
+				text-align: center;
+			}
+		}
+		
+	
+		
+	</style>
+	
+  </head>
+  <body>
+  
+
+  	  <!-- Navbar content start-->
+
+	  <!-- Navbar content end -->
+
+<!-- START NAVBAR -->	
+<div class='text-center cover-text'>
+<header>
+		  <nav class='navbar navbar-expand-lg navbar-dark bg-faded' style="text-shadow: 2px 2px 4px #000000;">
+			<a class='navbar-brand text-white' href='index.html'>
+			<img alt='' class='d-inline-block align-top' height='30' src='Images/Favicon_rounded.png' width='30'/>
+			GARDNA PARK
+			</a>
+			<button aria-controls='navbarCollapse' aria-expanded='false' aria-label='Toggle navigation' class='navbar-toggler' data-target='#navbarCollapse' data-toggle='collapse' type='button'>
+			  <span class='navbar-toggler-icon'/>
+			</button>
+			<div class='collapse navbar-collapse' id='navbarCollapse' style='font-weight: 700; letter-spacing: 1px;'>
+			  <ul class='navbar-nav mr-auto'>
+				<li class='nav-item active'>
+				  <a class='nav-link text-white' href='index.html'><span class='sr-only'>(current)</span></a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white' href='about.html'>ABOUT&nbsp;US</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white'>|</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white disabled' href='projects.html'>PROJECTS</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white'>|</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white disabled' href='location.html'>LOCATION</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white'>|</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white disabled' href='prices.html'>PRICES</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white'>|</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white' href='getting.html'>GETTING&nbsp;STARTED</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white'>|</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white disabled' href='contact.html'>CONTACT</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white'>|</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white' href='gallery.html'>VICINITY</a>
+				</li>
+				<li class='nav-item'>
+				  <a class='nav-link text-white'>|</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a href="#" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">EN</a>
+					<ul class="dropdown-menu" role="menu" style="background-color: rgba(245, 245, 245, 0.0); border: 0px solid rgba(0,0,0,0);">
+						<li><a class='nav-link text-white' href="http://www.gardnapark.pl/onas.html">PL</a></li>
+						<li><a class='nav-link text-white' href="http://www.gardnapark.pl/de/uberuns.html">DE</a></li>
+						<li><a class='nav-link text-white' href="#">NL</a></li>
+						<li><a class='nav-link text-white' href="http://www.gardnapark.pl/cz/onas.html">CZ</a></li>
+					</ul>
+				</li>
+	
+			  </ul>
+			</div>
+			
+	
+		  </nav>
+</header>
+</div>
+
+	<!-- End NAVBAR -->	
+	
+
+	<div class="container marketing text-white">
+
+        <!-- Three columns of text below the carousel -->
+
+
+
+        <!-- START THE FEATURETTES -->
+
+
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading Onas_small">Who we are?<span class="text-muted"></span></h2>
+            <p class="lead Onas text-justify">We are a company by the charming name of Sand Wind and Water, abbreviated to SWW, based in Warsaw. SWW combines the longstanding experience of Słowinex – a company specialising in laying thatched roofs in Western European countries, and M&J Nederland – a company specialising in renovation and construction in Western European Countries.</p>
+          </div>
+          <div class="col-md-2 " style="margin-top: auto !important;margin-bottom: auto !important;">
+			<a target="_blank" href='http://www.reed.pl/'><img class="rounded-circle  img-fluid mx-auto d-block" src="Images/Logo_140x140_Trans.png" alt="Generic placeholder image" width="140" height="140"/></a><h2 class="text-center">Słowinex</h2>
+          </div>
+		  <div class="col-md-3 " style="margin-top: auto !important;margin-bottom: auto !important;">
+			<a target="_blank" href='http://www.poolsebouwfirma.nl/'><img class="rounded-circle  img-fluid mx-auto d-block" src="Images/Logo_Poolsebouwfirma_140x140_Trans.png" alt="Generic placeholder image" width="140" height="140"/></a>
+			<h2 class="text-center">M&J Nederland</h2>
+          </div>
+        </div>
+
+
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading Onas_small">What we want to do?<span class="text-muted"></span></h2>
+            <p class="lead Onas text-justify">Based upon our longstanding experience abroad, we want to build elegant estates named GARDNA PARK by the Polish sea, in the Słowiński National Park buffer zone, for clients from across the world. We propose a long-term project on a turn-key basis, which can give you a rate of return as high as 7% per annum.</p>
+          </div>
+          <div class="col-md-5 order-md-1" style="margin-top: auto !important;margin-bottom: auto !important;">
+            <img class="featurette-image img-fluid mx-auto d-block" src="Images/GardnaPark.png" alt=""/>
+          </div>
+        </div>
+
+
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading Onas_small">How we want to build?<span class="text-muted"></span></h2>
+            <p class="lead Onas text-justify">Thatched roofs are the element that sets this project apart. The 24-hour management and security system will ensure trouble-free operation all year round. The buildings will be timber-framed, based upon the experiences and products of the German company STEICO. The STEICO system offers not only very good thermal properties, but also, or perhaps most importantly, solutions that ensure very good moisture removal from the building and from the walls. This has a positive impact on our health and comfort of living.</p>
+          </div>
+          <div class="col-md-5" style="margin-top: auto !important;margin-bottom: auto !important;">
+            <a target="_blank" href='http://www.steico.com/'><img class="img-fluid mx-auto d-block" src="Images/Steico.png" width="220" height="79" alt="Steico Technology"/></a>
+          </div>
+        </div>
+
+
+
+        <!-- /END THE FEATURETTES -->
+		<br/>
+
+		
+
+		
+
+      </div><!-- /.container -->
+	
+
+
+  	<!-- Start Dimmer-->
+	  <div id="overlay">
+		<div id="progstat"></div>
+		<div id="progress"></div>
+	  </div>
+
+	<!-- End Dimmer-->
+
+
+	<footer class="text-muted py-1">
+      <div class="container">
+        <p class="float-right">
+          <a class="text-white" href="#">Back</a>
+        </p>
+        <p class="text-white">© Sand, Wind and Water 2018. SWW</p>
+        <p></p>
+      </div>
+    </footer>
+	
+<!--
+	<img class="img-fluid mx-auto d-block" style="display: none !important;" src="Images/House_1.jpg"/>
+  -->
+	
+
+	
+	
+	
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+
+	
+  </body>
+</html>

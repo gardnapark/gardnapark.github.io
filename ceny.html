@@ -3,12 +3,12 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"/>
 
-    <title>Inwestycja nadmorska - Gardna Park</title>
+    <title>Wysoki zwrot z inwestycji - Gardna Park</title>
 		<script>
 	
 		;(function(){
@@ -57,17 +57,14 @@
 		html {
 			height: 100%;
 		}
-		
 		body{ 
 		font-family: 'Lora', serif; 
-		background: url("Images/Aerial_1.jpg");
-		background-size:cover;
+		background-image: url("Images/House_7.jpg");
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-color:#000;		
 		text-shadow: 2px 2px 4px #333;
-		height: 100%;
-
+		background-color: #000;
+		background-size:cover;
 		}
 		
 
@@ -117,21 +114,9 @@
 		  padding-top: var(--jumbotron-padding-y);
 		  padding-bottom: var(--jumbotron-padding-y);
 		  margin-bottom: 0;
-		  background:rgba(1,1,1,0.0) !important;
+		  background:rgba(1,1,1,0.4) !important;
 		  
 		}
-		
-		.jumbotron {
-
-			color: #fff;
-			font-weight: bold;
-			text-align: center;
-			text-transform: uppercase;
-			
-			text-shadow: 2px 2px 0 rgba(0,0,0,.75);
-
-		}
-		
 		
 		.corner-ribbon{
 		  width: 430px;
@@ -206,32 +191,9 @@
 		.corner-ribbon.red{background: #e43;}
 		.corner-ribbon.orange{background: #e82;}
 		.corner-ribbon.yellow{background: #ec0;}
-
-		h1 {
-			font-size: 6em;    
-			font-weight: bold;
-			margin: 0;
-			padding: 0;
-			text-shadow: 2px 2px 0 rgba(0,0,0,.75);
-
-		}
 		
-		h3 {
-			font-size: 2em; 
-			font-weight: bold;
-			margin: 0;
-			padding: 0;
-			text-shadow: 2px 2px 0 rgba(0,0,0,.75);
-			letter-spacing: 2px;
-		}
-		
-		@media only screen and (max-width : 1224px) {
-			h3 {
-				font-size: 1em;
-			}
-			h1 {
-				font-size: 2em;
-			}
+		p,h1 {
+			text-shadow: 2px 2px 4px #222;
 		}
 		
 		@media only screen and (max-width : 1000px) {
@@ -239,11 +201,7 @@
 				text-align: center;
 			}
 		}
-		
-		
-		
 
-		
 		
 	
 		
@@ -260,7 +218,7 @@
 <!-- START NAVBAR -->	
 <div class='text-center cover-text'>
 		<header>
-		  <nav class='navbar navbar-expand-lg navbar-dark bg-faded' style="text-shadow: 2px 2px 4px #000000;">
+		  <nav class='navbar navbar-expand-lg navbar-dark bg-faded'>
 			<a class='navbar-brand text-white' href='index.html'>
 			<img alt='' class='d-inline-block align-top' height='30' src='Images/Favicon_rounded.png' width='30'/>
 			GARDNA PARK
@@ -292,13 +250,13 @@
 				  <a class='nav-link text-white'>|</a>
 				</li>
 				<li class='nav-item'>
-				  <a class='nav-link text-white disabled' href='ceny.html'>CENY</a>
+				  <a class='nav-link text-white' href='ceny.html'>CENY</a>
 				</li>
 				<li class='nav-item'>
 				  <a class='nav-link text-white'>|</a>
 				</li>
 				<li class='nav-item'>
-				  <a class='nav-link text-white' href='jak.html'>JAK&nbsp;ZACZĄĆ</a>
+				  <a class='nav-link text-white disabled' href='jak.html'>JAK&nbsp;ZACZĄĆ</a>
 				</li>
 				<li class='nav-item'>
 				  <a class='nav-link text-white'>|</a>
@@ -318,37 +276,58 @@
 				<li class="nav-item dropdown">
 					<a href="#" class="nav-link text-white dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PL</a>
 					<ul class="dropdown-menu" role="menu" style="background-color: rgba(245, 245, 245, 0.0); border: 0px solid rgba(0,0,0,0);">
-						<li><a class='nav-link text-white' href="http://www.gardnapark.pl/en/index.html">EN</a></li>
-						<li><a class='nav-link text-white' href="http://www.gardnapark.pl/de/index.html">DE</a></li>
+						<li><a class='nav-link text-white' href="http://www.gardnapark.pl/en/prices.html">EN</a></li>
+						<li><a class='nav-link text-white' href="http://www.gardnapark.pl/de/preise.html">DE</a></li>
 						<li><a class='nav-link text-white' href="#">NL</a></li>
-						<li><a class='nav-link text-white' href="http://www.gardnapark.pl/cz/index.html">CZ</a></li>
+						<li><a class='nav-link text-white' href="http://www.gardnapark.pl/cz/ceny.html">CZ</a></li>
 					</ul>
 				</li>
-	
 			  </ul>
 			</div>
-			
-	
 		  </nav>
 		</header>
 </div>
-
 
 	<!-- End NAVBAR -->	
 	
 
 	<div class="container marketing text-white text-center pt-5 mt-5">
-	  <div class="jumbotron p-5 p-md-5 mt-5 text-white rounded bg-light">
-
-				<h3>Inwestycja</h3>
-				<h1>Gardna Park</h1>        
-				<h3>Gdy Piękno Jest Twoją Pasją</h3>
-				<a href="projekty.html#YTvideo" style="font-weight: bold;" type="button" class="btn btn-success" data-target="#modalRegister">Zobacz Film</a>
-	
-
-      </div>
-	
-	
+	  <div class="jumbotron p-5 p-md-5 text-white rounded bg-light">
+	  <div class="row">
+	   <div class="col-md-8 px-0">
+	   	<h1 class="display-4 font-italic">Gardna Park</h1>
+ 	  </div>
+	  </div>
+	  
+	    <div class="row featurette">
+          <div class="col-md-8">
+            <h2 class="featurette-heading">Powierzchnia<span class="text-muted"></span></h2>
+            <p class="lead text-justify">Nasze działki mają średnią powierzchnię 1500m2. Cena za m2 to około 65zł. Ceny budynków zależą od powierzchni, założonych detali oraz zakresu prac jaki mamy wykonać, czyli: stan surowy zamkniety, deweloperski czy pod klucz.  Szacunkowo koszt 1m2 powierzchni użytkowej naszych budynków wynosi około 3480 zł brutto w stanie deweloperskim.</p>
+          </div>
+          <div class="col-md-4" style="margin-top: auto !important;margin-bottom: auto !important;">
+            <img class="featurette-image img-fluid mx-auto d-block" src="Images/Map_Icon.png" alt=""/>
+          </div>
+        </div>
+		<div class="row featurette">
+          <div class="col-md-8">
+            <h2 class="featurette-heading">Inwestycja<span class="text-muted"></span></h2>
+            <p class="lead text-justify">Ze względu na lokalizację i rekreacyjny charakter Gardna Park, obiekty mogą być traktowane jako inwestycja. Zmieniające się trendy w turystyce, coraz większe zainteresowanie pasem nadmorskim i aktywną turystyką, zwiększa popyt na wynajem obiektów rekreacyjnych w tym rejonie. Szacunkowy zwrot z inwestycji to 7%.</p>
+          </div>
+          <div class="col-md-4" style="margin-top: auto !important;margin-bottom: auto !important;">
+            <img class="featurette-image img-fluid mx-auto d-block" src="Images/Savings_Icon.png" alt=""/>
+          </div>
+        </div>
+		<div class="row featurette">
+          <div class="col-md-8">
+            <h2 class="featurette-heading">Nadzór<span class="text-muted"></span></h2>
+            <p class="lead text-justify">SWW Inwest oferuje nie tylko budowę domów ale także ich nadzór, ochronę, utrzymanie jak i również organizację wynajmu gwarantującego zwrot z inwestycji</p>
+          </div>
+          <div class="col-md-4" style="margin-top: auto !important;margin-bottom: auto !important;">
+            <img class="featurette-image img-fluid mx-auto d-block" src="Images/Camera_Icon.png" alt=""/>
+          </div>
+        </div>
+	  
+      </div>	
     </div><!-- /.container -->
 	
 
@@ -367,7 +346,7 @@
         <p class="float-right">
 
         </p>
-        <p class="text-white"></p>
+        <p class="text-white">© Sand, Wind and Water 2018. SWW</p>
         <p></p>
       </div>
     </footer>
